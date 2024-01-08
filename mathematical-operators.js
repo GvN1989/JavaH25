@@ -64,3 +64,16 @@ const province = "Noord-Holland"
 
 const origin = town + ", "+ province;
 console.log (origin);
+
+const fruit = "Appels";
+
+switch (fruit) {
+    case 'Bananen':
+        console.log('Het zijn bananen!');
+    case 'Appels':
+        console.log('Het zijn appels!');
+    case 'Citroenen':
+        console.log('Het zijn citroenen!');
+    default:
+        console.log('Er is geen vrucht gekozen');
+}
